@@ -1,0 +1,28 @@
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-name">C0thartDEV</div>
+        <div class="navbar-icon icon-light--mode"></div>
+    </div>
+</nav>
+
+<script>
+    const layout = document.querySelector('main.app-layout')
+    const themeSwitch = document.querySelector('.navbar .navbar-icon')
+
+    themeSwitch.addEventListener('click', () => {
+        const isDarkMode = !layout.classList.contains('theme--light')
+
+        if(isDarkMode) {
+            layout.classList.remove('theme--dark')
+            layout.classList.add('theme--light')
+            themeSwitch.classList.remove('icon-light--mode')
+            themeSwitch.classList.add('icon-dark--mode')
+        }
+        else {
+            layout.classList.remove('theme--light')
+            layout.classList.add('theme--dark')
+            themeSwitch.classList.remove('icon-dark--mode')
+            themeSwitch.classList.add('icon-light--mode')
+        }
+    })
+</script>

@@ -1,0 +1,56 @@
+main {
+    --bg-100: #{$bg-100-dark};
+    --bg-75: #{$bg-75-dark};
+    --bg-50: #{$bg-50-dark};
+    --bg-25: #{$bg-25-dark};
+    --text-100: #{$text-100-dark};
+    --text-75: #{$text-75-dark};
+    --text-50: #{$text-50-dark};
+    --line-100: #{$line-100-dark};
+    --line-75: #{$line-75-dark};
+    --line-50: #{$line-50-dark};
+    --negative: #{$negative-dark};
+    --accent: #{$accent-dark};
+}
+
+.theme--dark {
+    --bg-100: #{$bg-100-dark};
+    --bg-75: #{$bg-75-dark};
+    --bg-50: #{$bg-50-dark};
+    --bg-25: #{$bg-25-dark};
+    --text-100: #{$text-100-dark};
+    --text-75: #{$text-75-dark};
+    --text-50: #{$text-50-dark};
+    --line-100: #{$line-100-dark};
+    --line-75: #{$line-75-dark};
+    --line-50: #{$line-50-dark};
+    --accent: #{$accent-dark};
+}
+
+.theme--light {
+    --bg-100: #{$bg-100-light};
+    --bg-75: #{$bg-75-light};
+    --bg-50: #{$bg-50-light};
+    --bg-25: #{$bg-25-light};
+    --text-100: #{$text-100-light};
+    --text-75: #{$text-75-light};
+    --text-50: #{$text-50-light};
+    --line-100: #{$line-100-light};
+    --line-75: #{$line-75-light};
+    --line-50: #{$line-50-light};
+    --negative: #{$negative-light};
+    --accent: #{$accent-light};
+}
+
+$bg-100: var(--bg-100);
+$bg-75: var(--bg-75);
+$bg-50: var(--bg-50);
+$bg-25: var(--bg-25);
+$text-100: var(--text-100);
+$text-75: var(--text-75);
+$text-50: var(--text-50);
+$line-100: var(--line-100);
+$line-75: var(--line-75);
+$line-50: var(--line-50);
+$negative: var(--negative);
+$accent: var(--accent);

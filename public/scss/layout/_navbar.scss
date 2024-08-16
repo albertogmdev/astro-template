@@ -1,0 +1,25 @@
+.navbar{
+    padding: 25px 0px;
+    background-color: $bg-100;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .navbar-name { 
+            font-weight: bold;
+            font-family: 'Verdana';
+            font-size: 20px;
+            letter-spacing: -0.5px;
+            color: $text-50;
+        }
+
+        .navbar-icon {
+            width: 24px;
+            height: 24px;
+            background-color: $text-50;
+            cursor: pointer;
+        }
+    }
+}
