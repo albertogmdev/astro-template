@@ -15,7 +15,8 @@ main {
   --line-75: #2d353b;
   --line-50: #a5a5a5;
   --negative: 255, 255, 255;
-  --accent: 117, 166, 60; }
+  --accent: 117, 166, 60;
+}
 
 .theme--dark {
   --bg-100: #000000;
@@ -28,7 +29,8 @@ main {
   --line-100: #101214;
   --line-75: #2d353b;
   --line-50: #a5a5a5;
-  --accent: 117, 166, 60; }
+  --accent: 117, 166, 60;
+}
 
 .theme--light {
   --bg-100: #f7f7f7;
@@ -42,7 +44,8 @@ main {
   --line-75: #9f9f9f;
   --line-50: #6f6f6f;
   --negative: 0, 0, 0;
-  --accent: 117, 166, 60; }
+  --accent: 117, 166, 60;
+}
 
 * {
   box-sizing: border-box;
@@ -50,21 +53,25 @@ main {
   padding: 0;
   scroll-behavior: smooth;
   font-family: monospace;
-  transition: color .3s linear, background .3s linear; }
+  transition: color 0.3s linear, background 0.3s linear;
+}
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 main {
   position: relative;
   padding-bottom: 79px;
   min-height: 100vh;
-  background-color: var(--bg-75); }
+  background-color: var(--bg-75);
+}
 
 .container {
   display: block;
@@ -72,7 +79,8 @@ main {
   margin: 0 auto;
   width: 95%;
   padding: 0;
-  position: relative; }
+  position: relative;
+}
 
 /**
 * Characters to escape from SVGs
@@ -90,7 +98,8 @@ main {
   --svg-instagram: url("data:image/svg+xml, %3Csvg%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox=%270%200%2020%2019%27%20fill=%27none%27%3E%3Cpath%20d=%27M13.6%201.1001H6.39998C3.74901%201.1001%201.59998%203.24913%201.59998%205.9001V13.1001C1.59998%2015.7511%203.74901%2017.9001%206.39997%2017.9001H13.6C16.2509%2017.9001%2018.4%2015.7511%2018.4%2013.1001V5.9001C18.4%203.24913%2016.2509%201.1001%2013.6%201.1001Z%27%20fill=%27%23DFF5FC%27%2F%3E%3Cpath%20d=%27M6.39998%209.5001C6.39998%2011.4883%208.01175%2013.1001%209.99998%2013.1001C11.9882%2013.1001%2013.6%2011.4883%2013.6%209.5001C13.6%207.51187%2011.9882%205.9001%209.99998%205.9001C8.01175%205.9001%206.39998%207.51187%206.39998%209.5001Z%27%20fill=%27%23DFF5FC%27%2F%3E%3Cpath%20d=%27M14.2%204.7001H15.4M6.39998%201.1001H13.6C16.2509%201.1001%2018.4%203.24913%2018.4%205.9001V13.1001C18.4%2015.7511%2016.2509%2017.9001%2013.6%2017.9001H6.39997C3.74901%2017.9001%201.59998%2015.7511%201.59998%2013.1001V5.9001C1.59998%203.24913%203.74901%201.1001%206.39998%201.1001ZM9.99998%2013.1001C8.01175%2013.1001%206.39998%2011.4883%206.39998%209.5001C6.39998%207.51187%208.01175%205.9001%209.99998%205.9001C11.9882%205.9001%2013.6%207.51187%2013.6%209.5001C13.6%2011.4883%2011.9882%2013.1001%209.99998%2013.1001Z%27%20stroke=%27%231C1C1C%27%20stroke-width=%271.5%27%2F%3E%3C%2Fsvg%3E ");
   --svg-youtube: url("data:image/svg+xml, %3Csvg%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox=%270%200%2018%2019%27%20fill=%27none%27%3E%3Cpath%20d=%27M17.475%205.97451C17.475%205.82451%2017.25%204.62451%2016.725%204.09951C16.05%203.34951%2015.3%203.27451%2014.925%203.27451H14.85C12.525%203.12451%209.075%203.12451%209%203.12451C9%203.12451%205.475%203.12451%203.15%203.27451H3.075C2.7%203.27451%201.95%203.34951%201.275%204.09951C0.75%204.69951%200.525%205.89951%200.525%206.04951C0.525%206.12451%200.375%207.47451%200.375%208.89951V10.1745C0.375%2011.5995%200.525%2012.9495%200.525%2013.0245C0.525%2013.1745%200.75%2014.3745%201.275%2014.8995C1.875%2015.5745%202.625%2015.6495%203.075%2015.7245C3.15%2015.7245%203.225%2015.7245%203.3%2015.7245C4.65%2015.8745%208.775%2015.8745%208.925%2015.8745C8.925%2015.8745%2012.45%2015.8745%2014.775%2015.7245H14.85C15.225%2015.6495%2015.975%2015.5745%2016.65%2014.8995C17.175%2014.2995%2017.4%2013.0995%2017.4%2012.9495C17.4%2012.8745%2017.55%2011.5245%2017.55%2010.0995V8.82451C17.625%207.47451%2017.475%206.04951%2017.475%205.97451ZM11.925%209.64951L7.425%2012.0495C7.35%2012.0495%207.35%2012.1245%207.275%2012.1245C7.2%2012.1245%207.125%2012.1245%207.125%2012.0495C7.05%2011.9745%206.975%2011.8995%206.975%2011.7495V6.87451C6.975%206.72451%207.05%206.64951%207.125%206.57451C7.2%206.49951%207.35%206.49951%207.5%206.57451L12%208.97451C12.15%209.04951%2012.225%209.12451%2012.225%209.27451C12.225%209.42451%2012.075%209.57451%2011.925%209.64951Z%27%20fill=%27%23DFF5FC%27%2F%3E%3C%2Fsvg%3E ");
   --svg-arrow--left: url("data:image/svg+xml, %3Csvg%20width=%2717%27%20height=%2718%27%20viewBox=%270%200%2017%2018%27%20fill=%27none%27%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d=%27M16.2773%209.01025L1.00384%209.01025%27%20stroke=%27%2342005A%27%2F%3E%3Cpath%20d=%27M9.00391%2017L1.00391%209L9.00391%201%27%20stroke=%27%2342005A%27%2F%3E%3C%2Fsvg%3E ");
-  --svg-arrow--right: url("data:image/svg+xml, %3Csvg%20width=%2717%27%20height=%2718%27%20viewBox=%270%200%2017%2018%27%20fill=%27none%27%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d=%27M0.724609%208.98975H15.9981%27%20stroke=%27%2342005A%27%2F%3E%3Cpath%20d=%27M7.99805%201L15.998%209L7.99805%2017%27%20stroke=%27%2342005A%27%2F%3E%3C%2Fsvg%3E "); }
+  --svg-arrow--right: url("data:image/svg+xml, %3Csvg%20width=%2717%27%20height=%2718%27%20viewBox=%270%200%2017%2018%27%20fill=%27none%27%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d=%27M0.724609%208.98975H15.9981%27%20stroke=%27%2342005A%27%2F%3E%3Cpath%20d=%27M7.99805%201L15.998%209L7.99805%2017%27%20stroke=%27%2342005A%27%2F%3E%3C%2Fsvg%3E ");
+}
 
 .icon-dark--mode {
   -webkit-mask-image: var(--svg-dark--mode);
@@ -101,7 +110,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-light--mode {
   -webkit-mask-image: var(--svg-light--mode);
@@ -112,7 +122,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-arrow--left {
   -webkit-mask-image: var(--svg-arrow--left);
@@ -123,7 +134,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-arrow--right {
   -webkit-mask-image: var(--svg-arrow--right);
@@ -134,7 +146,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-linkedin {
   -webkit-mask-image: var(--svg-linkedin);
@@ -145,7 +158,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-x {
   -webkit-mask-image: var(--svg-x);
@@ -156,7 +170,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-youtube {
   -webkit-mask-image: var(--svg-youtube);
@@ -167,7 +182,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-instagram {
   -webkit-mask-image: var(--svg-instagram);
@@ -178,7 +194,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .icon-facebook {
   -webkit-mask-image: var(--svg-facebook);
@@ -189,7 +206,8 @@ main {
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; }
+  mask-repeat: no-repeat;
+}
 
 .footer {
   position: absolute;
@@ -197,28 +215,34 @@ main {
   bottom: 0;
   width: 100%;
   padding: 30px 0px;
-  background-color: var(--bg-100); }
-  .footer .container .footer-text {
-    color: var(--text-50);
-    text-align: center; }
+  background-color: var(--bg-100);
+}
+.footer .container .footer-text {
+  color: var(--text-50);
+  text-align: center;
+}
 
 .navbar {
   padding: 25px 0px;
-  background-color: var(--bg-100); }
-  .navbar .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .navbar .container .navbar-name {
-      font-weight: bold;
-      font-family: 'Verdana';
-      font-size: 20px;
-      letter-spacing: -0.5px;
-      color: var(--text-50); }
-    .navbar .container .navbar-icon {
-      width: 24px;
-      height: 24px;
-      background-color: var(--text-50);
-      cursor: pointer; }
+  background-color: var(--bg-100);
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .container .navbar-name {
+  font-weight: bold;
+  font-family: "Verdana";
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  color: var(--text-50);
+}
+.navbar .container .navbar-icon {
+  width: 24px;
+  height: 24px;
+  background-color: var(--text-50);
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=styles.css.map */
