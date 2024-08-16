@@ -11,7 +11,7 @@ This is a basic template project that uses [Astro](https://astro.build/) (versio
 
 ### Installation
 
-1. Clone the repository:
+1. Use this template in your project or just clone the repository:
     ```bash
     git clone https://github.com/albertogmdev/astro-template.git
     ```
