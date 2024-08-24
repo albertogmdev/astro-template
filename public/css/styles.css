@@ -217,6 +217,10 @@ main {
   padding: 30px 0px;
   background-color: var(--bg-100);
 }
+.footer a {
+  color: rgb(var(--accent));
+  font-weight: bolder;
+}
 .footer .container .footer-text {
   color: var(--text-50);
   text-align: center;
