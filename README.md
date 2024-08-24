@@ -2,8 +2,7 @@
 
 This is a basic template project that uses [Astro](https://astro.build/) (version 4.14.2) and [SASS](https://sass-lang.com/) to help you quickly set up new web projects. The template also includes styles and management for dark and light themes, making it easy to switch between different visual styles.
 
-![image](https://github.com/user-attachments/assets/3a4c94c0-8f67-4054-86a1-82ac6635852b)
-![image](https://github.com/user-attachments/assets/1d38fa8a-f8b1-4b8e-8334-fe7b622c9b75)
+![image](https://github.com/user-attachments/assets/21a81e40-acc8-4920-b59b-ea4f54457459)
 
 ## Requirements
 
